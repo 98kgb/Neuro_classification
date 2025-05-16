@@ -1,0 +1,21 @@
+; Ocean Script: export_csv.ocn
+
+; 1. 결과 디렉토리 열기 (여기서 경로 수정 필요!)
+openResults("/home/gibaek/simulation/GB/test_sweep/maestro/results/maestro/ExplorerRun.0/1/GB_test_sweep_1/psf/")
+
+; 2. 원하는 결과 타입 선택
+selectResult('tran)
+
+; 3. 노드 벡터 읽기 (노드 이름 수정 가능)
+vout = vec?("/Vout_FP2_F4")
+time = abscissa(vout)
+voltage = value(vout)
+
+; 4. CSV 파일로 저장
+fp = outfile("vout_results.csv" "w")
+fprintf(fp "Time(s), Voltage(V)\n")
+for(i 0 (sub1 (length time))
+  fprintf(fp "%e, %e\n" (nth i time) (nth i voltage))
+)
+close(fp)
+

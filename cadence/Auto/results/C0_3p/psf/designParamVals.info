@@ -1,0 +1,30 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.138.isr1"
+"date" "1:24:59 PM, Fri May 2, 2025"
+"design" "// Point Netlist Generated on: Apr 30 14:33:02 2025"
+"analysis type" "info"
+"analysis name" "designParamVals"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"top-level" STRUCT(
+"temp" FLOAT DOUBLE
+"tnom" FLOAT DOUBLE
+"temper" FLOAT DOUBLE
+"time" FLOAT DOUBLE
+"temperature" FLOAT DOUBLE
+) PROP(
+"key" "parameters"
+)
+VALUE
+"top-level" "top-level" (
+2.700000000000000e+01
+2.700000000000000e+01
+2.700000000000000e+01
+0.000000000000000e+00
+2.700000000000000e+01
+)
+END

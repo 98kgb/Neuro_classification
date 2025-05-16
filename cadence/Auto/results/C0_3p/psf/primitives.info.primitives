@@ -1,0 +1,64 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.138.isr1"
+"date" "1:24:59 PM, Fri May 2, 2025"
+"design" "// Point Netlist Generated on: Apr 30 14:33:02 2025"
+"analysis type" "info.primitives"
+"analysis name" "primitives"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"primitive" STRUCT(
+"model" STRING *
+"oppoint" STRING *
+"output" STRING *
+"inst" STRING *
+"region" STRING *
+"terminals" STRING *
+) PROP(
+"key" "prim"
+)
+VALUE
+"capacitor" "primitive" (
+"c trise tnom w l etch cj cjsw scalec rforce di thick coeffs symmetric min max tc1 tc2 shrink shrink2 bv_max bv_min "
+"trise v cap "
+"tempeff meff leff weff ceff "
+"c c0 w l m scale tc1 tc2 ic area perim coeffs symmetric bv_max scalec bv_min "
+""
+"1 2 "
+)
+"isource" "primitive" (
+""
+"i v pwr "
+"tempeff "
+"dc type fundname delay edgetype val0 val1 period rise fall width file offset scale stretch rms pwlfilter rolloff pwlbandwidth allbrkpts pwlperiod pwlperiodstart pwlperiodstop pwlperiodstopvalue pwlperiodstopslope twidth tdvalue vcsvsignalname sinedc ampl freq sinephase ampl2 freq2 sinephase2 fundname2 iqmodfiles fmmodindex fmmodfreq fmmodfiles ammodindex ammodoffset ammodfreq ammodphase damp freqvec amplvec phasevec maxharms td1 tau1 td2 tau2 expperiod data rptstart rpttimes td01 td10 ref jitter rjseed rjrms pjamp pjfreq pjtype seed taps lfsrtaps lfsrseed registerlength triggerthreshold triggerdelthresh triggerdirection transitionreference modulation pam4_mapping oscmacrofile freqscale amplscale noisefile noisetype noiseinterp isnoisy mag phase xfmag pacmag pacphase m tc1 tc2 tnom trise "
+""
+"sink src ctlp ctln "
+)
+"otftOriginal" "primitive" (
+""
+"termcurs qtotitot qtot qgate qdrain qsource cgga cgd cgs CggNum "
+""
+"TYPE L W EPS EPSI TNOM TOX VT0 GAMMA VAA ALPHASAT RD RS MUFET idcdL idcdS idcdL0 idcdS0 ETAD RC0 M LAMBDA CCt SL SS DVL QL IOL DVS QS IOS temp q kb TS OFFSET Q1C LOVD LOVS EG NCS NVS NB M1 SHIFTQ DELTAQ VMINQ VDMIN f m "
+""
+"d g s "
+)
+"resistor" "primitive" (
+"r rsh thresh rthresh rac l w etch etchl scaler tc1 tc2 tnom trise coeffs nonlinform symmetric kf af wdexp ldexp weexp wf leexp lf fexp mr mrl mrlp mrw mrwp mrlw1 mrlw1p mrlw2 mrlw2p c cj cjsw thick di cratio tc1c tc2c shrink scalec dtemp cap dw dlr cox capsw res ef bv_max "
+"trise v i res pwr "
+"leff weff reff ceff tempeff meff "
+"r l w lvl m scale resform tc1 tc1r tc2 tc2r isnoisy bv_max c tc1c tc2c rac scaler scalec dtemp cap "
+""
+"1 2 0 "
+)
+"vsource" "primitive" (
+""
+"v i pwr "
+"tempeff "
+"dc type fundname delay edgetype val0 val1 period rise fall width file offset scale stretch rms pwlfilter rolloff pwlbandwidth allbrkpts pwlperiod pwlperiodstart pwlperiodstop pwlperiodstopvalue pwlperiodstopslope twidth tdvalue vcsvsignalname sinedc ampl freq sinephase ampl2 freq2 sinephase2 fundname2 iqmodfiles fmmodindex fmmodfreq fmmodfiles ammodindex ammodoffset ammodfreq ammodphase damp freqvec amplvec phasevec maxharms td1 tau1 td2 tau2 expperiod data rptstart rpttimes td01 td10 ref jitter rjseed rjrms pjamp pjfreq pjtype seed taps lfsrtaps lfsrseed registerlength triggerthreshold triggerdelthresh triggerdirection transitionreference modulation pam4_mapping oscmacrofile freqscale amplscale noisefile noisetype noiseinterp isnoisy mag phase xfmag pacmag pacphase m tc1 tc2 tnom trise "
+""
+"p n ctlp ctln "
+)
+END

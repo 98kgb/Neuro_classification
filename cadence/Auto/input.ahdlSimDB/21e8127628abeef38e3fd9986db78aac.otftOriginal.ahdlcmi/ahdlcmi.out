@@ -1,0 +1,138 @@
+ahdlcmicompile: Compiling ahdlcmi in ./input.ahdlSimDB//21e8127628abeef38e3fd9986db78aac.otftOriginal.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Fri May  2 12:40:30 CEST 2025 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /home/cdsmgr/cadence/installs/SPECTRE241/bin:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/bin/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/bin:/home/gibaek/anaconda3/bin:/home/gibaek/anaconda3/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/cdsmgr/sw/IC231/tools/bin:/home/cdsmgr/sw/IC231/tools/dfII/bin:/home/gibaek/.local/bin:/home/gibaek/bin:/bin
+LD_LIBRARY_PATH:  /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/libstdc++6/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/cuda/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/giganta/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/mdl/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/mmsim/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/hdf/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/python/64bit/lib:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/inca/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/awrmwo/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/dfII/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/libstdc++/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/abseil/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/grpc/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/protobuf/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/TPtools/libffi/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/fmc/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/lib/64bit:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/lib:/lib64:/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/lib/64bit/RHEL/RHEL8:/home/gibaek/anaconda3/lib
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j1 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file otftOriginal_func.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c otftOriginal_func.c -o obj/optimize/5.0/otftOriginal_func.o || rm -f -f obj/optimize/5.0/otftOriginal_func.o
+rm -f -rf otftOriginal_func.c
+Compiling C file otftOriginal_DcFuncDerLoad.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c otftOriginal_DcFuncDerLoad.c -o obj/optimize/5.0/otftOriginal_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/otftOriginal_DcFuncDerLoad.o
+rm -f -rf otftOriginal_DcFuncDerLoad.c
+Compiling C file otftOriginal_DcFuncLoad.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c otftOriginal_DcFuncLoad.c -o obj/optimize/5.0/otftOriginal_DcFuncLoad.o || rm -f -f obj/optimize/5.0/otftOriginal_DcFuncLoad.o
+rm -f -rf otftOriginal_DcFuncLoad.c
+Compiling C file otftOriginal_TranFuncDerLoad.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c otftOriginal_TranFuncDerLoad.c -o obj/optimize/5.0/otftOriginal_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/otftOriginal_TranFuncDerLoad.o
+rm -f -rf otftOriginal_TranFuncDerLoad.c
+Compiling C file otftOriginal_TranFuncLoad.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c otftOriginal_TranFuncLoad.c -o obj/optimize/5.0/otftOriginal_TranFuncLoad.o || rm -f -f obj/optimize/5.0/otftOriginal_TranFuncLoad.o
+rm -f -rf otftOriginal_TranFuncLoad.c
+Compiling C file otftOriginal_OpPointCalc.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -c otftOriginal_OpPointCalc.c -o obj/optimize/5.0/otftOriginal_OpPointCalc.o || rm -f -f obj/optimize/5.0/otftOriginal_OpPointCalc.o
+rm -f -rf otftOriginal_OpPointCalc.c
+Compiling C file otftOriginal_cmi_c.c (optimize)
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gibaek/anaconda3/include  -DconfigSPECTRE -I. -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include -I/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cmi/include -c otftOriginal_cmi_c.c -o obj/optimize/5.0/otftOriginal_cmi_c.o || rm -f -f obj/optimize/5.0/otftOriginal_cmi_c.o
+otftOriginal_cmi_c.c: In function 'otftOriginal_pGetInstanceParams':
+otftOriginal_cmi_c.c:2043:55: warning: implicit declaration of function 'devGetInstKnotStatus'; did you mean 'devGetInstState'? [-Wimplicit-function-declaration]
+ 2043 |                 if (  aslDevSimEvaluateDevice() || ( !devGetInstKnotStatus( pInstKnot ) ) || aslDevSimQuickDeviceEval() ) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~
+      |                                                       devGetInstState
+otftOriginal_cmi_c.c: In function 'otftOriginal_pDC_Load':
+otftOriginal_cmi_c.c:2327:62: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+ 2327 |                         aslDevFillZeorDiagonalElemet(pStencil->dignal_sten_addr_64, pStencil->dignal_sten_size_72, WhatsNeeded, pfuncModeParam);
+      |                                                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+      |                                                              |
+      |                                                              long int
+In file included from otftOriginal_cmi_c.c:2:
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2882:63: note: expected 'void *' but argument is of type 'long int'
+ 2882 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+otftOriginal_cmi_c.c: In function 'otftOriginal_pCompare':
+otftOriginal_cmi_c.c:2746:17: warning: implicit declaration of function 'spReplaceMatrixPointer'; did you mean 'aslDevLaplaceGetMatrixPointer'? [-Wimplicit-function-declaration]
+ 2746 |                 spReplaceMatrixPointer( Jacobian, &oldStenData->dignal_quartet_addr_112, &newStenData->dignal_quartet_addr_112);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+      |                 aslDevLaplaceGetMatrixPointer
+otftOriginal_cmi_c.c:2753:58: warning: assignment to 'long int' from 'long int *' makes integer from pointer without a cast [-Wint-conversion]
+ 2753 |                         newStenData->dignal_sten_addr_64 = ( long * )calloc( newStenData->dignal_sten_size_72, sizeof(long) );
+      |                                                          ^
+otftOriginal_cmi_c.c:2754:44: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+ 2754 |                         memcpy( newStenData->dignal_sten_addr_64 , oldStenData->dignal_sten_addr_64, sizeof(long)*newStenData->dignal_sten_size_72 );
+      |                                 ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            long int
+In file included from /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:80:
+/usr/include/string.h:43:39: note: expected 'void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+otftOriginal_cmi_c.c:2754:79: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+ 2754 |                         memcpy( newStenData->dignal_sten_addr_64 , oldStenData->dignal_sten_addr_64, sizeof(long)*newStenData->dignal_sten_size_72 );
+      |                                                                    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+      |                                                                               |
+      |                                                                               long int
+/usr/include/string.h:43:70: note: expected 'const void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+otftOriginal_cmi_c.c:2756:58: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+ 2756 |                         newStenData->dignal_sten_addr_64 = NULL;
+      |                                                          ^
+otftOriginal_cmi_c.c: In function 'otftOriginal_pGetMatrixPointers':
+otftOriginal_cmi_c.c:2924:55: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+ 2924 |                         pStencil->dignal_sten_addr_64 = pfuncModeParam->diagElementArray;
+      |                                                       ^
+otftOriginal_cmi_c.c:2926:59: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+ 2926 |                         pStencil->dignal_quartet_addr_112 = pfuncModeParam->diagQuartetArray;
+      |                                                           ^
+otftOriginal_cmi_c.c: In function 'otftOriginal_pAnalTranLoad':
+otftOriginal_cmi_c.c:3751:70: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+ 3751 |                                 aslDevFillZeorDiagonalElemet(pStencil->dignal_sten_addr_64, pStencil->dignal_sten_size_72, WhatsNeeded, pfuncModeParam);
+      |                                                              ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+      |                                                                      |
+      |                                                                      long int
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2882:63: note: expected 'void *' but argument is of type 'long int'
+ 2882 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+otftOriginal_cmi_c.c:3753:67: warning: passing argument 1 of 'aslDevFillZeroDiagQuartet' makes pointer from integer without a cast [-Wint-conversion]
+ 3753 |                                 aslDevFillZeroDiagQuartet(pStencil->dignal_quartet_addr_112, pStencil->dignal_quartet_size_120, WhatsNeeded, pfuncModeParam);
+      |                                                           ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                   |
+      |                                                                   long int
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:60: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeroDiagQuartet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                            ^~~~~~
+otftOriginal_cmi_c.c: In function 'otftOriginal_pSaveRestart':
+otftOriginal_cmi_c.c:4028:25: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+ 4028 |                         pklAccessDouble(myJar, tag, &default_break_point);
+      |                         ^~~~~~~~~~~~~~~
+otftOriginal_cmi_c.c:4029:51: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+ 4029 |                         qError = aslDevAvarSR(84, otftOriginal_avarList, (char *)pInst, (char *)pState, tag, myJar);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~
+      |                                                   |
+      |                                                   char *
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+otftOriginal_cmi_c.c: In function 'otftOriginal_pSaveRestartInst':
+otftOriginal_cmi_c.c:4097:35: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+ 4097 |         qError = aslDevAvarSR(84, otftOriginal_avarList, (char *)pInst, (char *)pState, tag, myJar);
+      |                                   ^~~~~~~~~~~~~~~~~~~~~
+      |                                   |
+      |                                   char *
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1230:58: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ 1230 | ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~
+otftOriginal_cmi_c.c: In function 'ahdlotftOriginalDescInstall':
+otftOriginal_cmi_c.c:4364:9: warning: implicit declaration of function 'descSetDeviceType'; did you mean 'descSetDelete'? [-Wimplicit-function-declaration]
+ 4364 |         descSetDeviceType(handle, otftOriginal_pDeviceType);
+      |         ^~~~~~~~~~~~~~~~~
+      |         descSetDelete
+otftOriginal_cmi_c.c:4366:9: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+ 4366 |         descSetSetContrInfoPtr(handle, otftOriginal_pSetContrInfoPtr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+otftOriginal_cmi_c.c:4373:9: warning: implicit declaration of function 'descSetCopySignals'; did you mean 'descSetMapSignals'? [-Wimplicit-function-declaration]
+ 4373 |         descSetCopySignals(handle, otftOriginal_pCopySignals);
+      |         ^~~~~~~~~~~~~~~~~~
+      |         descSetMapSignals
+otftOriginal_cmi_c.c:4403:9: warning: implicit declaration of function 'descSetVATermInfo'; did you mean 'descSetGetInfo'? [-Wimplicit-function-declaration]
+ 4403 |         descSetVATermInfo(handle, otftOriginal_pVATermInfo);
+      |         ^~~~~~~~~~~~~~~~~
+      |         descSetGetInfo
+otftOriginal_cmi_c.c:4404:9: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+ 4404 |         descSetGetNodeNamesForBranch(handle, otftOriginal_pGetNodeNamesForBranch);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rm -f -rf otftOriginal_cmi_c.c
+/home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/cdsgcc/gcc/12.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_otftOriginal.so ./obj/optimize/5.0/otftOriginal_func.o ./obj/optimize/5.0/otftOriginal_DcFuncDerLoad.o ./obj/optimize/5.0/otftOriginal_DcFuncLoad.o ./obj/optimize/5.0/otftOriginal_TranFuncDerLoad.o ./obj/optimize/5.0/otftOriginal_TranFuncLoad.o ./obj/optimize/5.0/otftOriginal_OpPointCalc.o ./obj/optimize/5.0/otftOriginal_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -lm -s 
+rm -f -f ./obj/optimize/5.0/otftOriginal_func.o ./obj/optimize/5.0/otftOriginal_DcFuncDerLoad.o ./obj/optimize/5.0/otftOriginal_DcFuncLoad.o ./obj/optimize/5.0/otftOriginal_TranFuncDerLoad.o ./obj/optimize/5.0/otftOriginal_TranFuncLoad.o ./obj/optimize/5.0/otftOriginal_OpPointCalc.o ./obj/optimize/5.0/otftOriginal_cmi_c.o 

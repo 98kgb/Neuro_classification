@@ -1,0 +1,192 @@
+// Point Netlist Generated on: Apr 30 14:33:02 2025
+// Generated for: spectre
+// Design Netlist Generated on: Apr 30 14:33:02 2025
+// Design library name: GB
+// Design cell name: AH_circuit_multi_ch
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters temperature=27
+
+// Library name: GB
+// Cell name: AH_circuit_multi_ch
+// View name: schematic
+I348 (net10 Vout_T8\-P8 Vmem_fin) otftOriginal TYPE=-1 L=1e-05 W=0.001 \
+        EPS=2.3 EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 \
+        VAA=7.2e+08 ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 \
+        idcdL=1.24e-10 idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 \
+        RC0=0 M=1.1 LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 \
+        IOL=1.09e-13 DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 \
+        kb=1.38066e-23 TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 \
+        LOVS=1.5e-05 EG=1.83 NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 \
+        DELTAQ=50 VMINQ=0.1 VDMIN=0.7 f=10000
+I345 (net5 Vout_FT10\-T8 Vmem_fin) otftOriginal TYPE=-1 L=1e-05 W=0.001 \
+        EPS=2.3 EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 \
+        VAA=7.2e+08 ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 \
+        idcdL=1.24e-10 idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 \
+        RC0=0 M=1.1 LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 \
+        IOL=1.09e-13 DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 \
+        kb=1.38066e-23 TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 \
+        LOVS=1.5e-05 EG=1.83 NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 \
+        DELTAQ=50 VMINQ=0.1 VDMIN=0.7 f=10000
+I341 (net9 Vout_FP2\-F4 Vmem_fin) otftOriginal TYPE=-1 L=1e-05 W=0.001 \
+        EPS=2.3 EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 \
+        VAA=7.2e+08 ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 \
+        idcdL=1.24e-10 idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 \
+        RC0=0 M=1.1 LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 \
+        IOL=1.09e-13 DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 \
+        kb=1.38066e-23 TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 \
+        LOVS=1.5e-05 EG=1.83 NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 \
+        DELTAQ=50 VMINQ=0.1 VDMIN=0.7 f=10000
+I338 (Vmem_T8\-P8 Vout_T8\-P8 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 \
+        EPS=2.3 EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 \
+        VAA=7.2e+08 ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 \
+        idcdL=1.24e-10 idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 \
+        RC0=0 M=1.1 LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 \
+        IOL=1.09e-13 DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 \
+        kb=1.38066e-23 TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 \
+        LOVS=1.5e-05 EG=1.83 NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 \
+        DELTAQ=50 VMINQ=0.1 VDMIN=0.7 f=10000
+I336 (Vout_T8\-P8 net13 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I335 (net13 Vmem_T8\-P8 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I324 (net4 Vmem_FT10\-T8 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I323 (Vout_FT10\-T8 net4 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I321 (Vmem_FT10\-T8 Vout_FT10\-T8 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 \
+        EPS=2.3 EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 \
+        VAA=7.2e+08 ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 \
+        idcdL=1.24e-10 idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 \
+        RC0=0 M=1.1 LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 \
+        IOL=1.09e-13 DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 \
+        kb=1.38066e-23 TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 \
+        LOVS=1.5e-05 EG=1.83 NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 \
+        DELTAQ=50 VMINQ=0.1 VDMIN=0.7 f=10000
+I289 (net3 Vmem_fin net8) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I288 (Vout_fin net3 net8) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I287 (Vmem_fin Vout_fin 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I299 (net1 Vmem_FP2\-F4 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I298 (Vout_FP2\-F4 net1 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 EPS=2.3 \
+        EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 VAA=7.2e+08 \
+        ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 idcdL=1.24e-10 \
+        idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 RC0=0 M=1.1 \
+        LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 IOL=1.09e-13 \
+        DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 kb=1.38066e-23 \
+        TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 LOVS=1.5e-05 EG=1.83 \
+        NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 DELTAQ=50 VMINQ=0.1 \
+        VDMIN=0.7 f=10000
+I297 (Vmem_FP2\-F4 Vout_FP2\-F4 0) otftOriginal TYPE=-1 L=1e-05 W=0.001 \
+        EPS=2.3 EPSI=6.5 TNOM=27 TOX=2.24e-06 VT0=2.799 GAMMA=1.05 \
+        VAA=7.2e+08 ALPHASAT=0.45 RD=286250 RS=286250 MUFET=2.1e-05 \
+        idcdL=1.24e-10 idcdS=1.24e-10 idcdL0=4.7e-11 idcdS0=4.7e-11 ETAD=0 \
+        RC0=0 M=1.1 LAMBDA=0.01 CCt=1e+20 SL=0.35 SS=0.35 DVL=0.27 QL=5 \
+        IOL=1.09e-13 DVS=0.27 QS=5 IOS=1.09e-13 temp=300 q=1.60218e-19 \
+        kb=1.38066e-23 TS=8e-08 OFFSET=3e-14 Q1C=4 LOVD=1.5e-05 \
+        LOVS=1.5e-05 EG=1.83 NCS=2e+27 NVS=2e+27 NB=2e+23 M1=4 SHIFTQ=7 \
+        DELTAQ=50 VMINQ=0.1 VDMIN=0.7 f=10000
+R94 (net12 net13) resistor r=100M
+R93 (net12 Vout_T8\-P8) resistor r=100M
+R90 (net6 Vout_FT10\-T8) resistor r=100M
+R89 (net6 net4) resistor r=100M
+R76 (net2 Vout_fin) resistor r=100M
+R75 (net2 net3) resistor r=100M
+R78 (net7 Vout_FP2\-F4) resistor r=100M
+R77 (net7 net1) resistor r=100M
+C40 (Vmem_fin 0) capacitor c=2p
+C39 (Vmem_fin 0) capacitor c=3p
+C0 (Vmem_fin 0) capacitor c=2p
+C38 (Vmem_T8\-P8 Vout_T8\-P8) capacitor c=3p
+C37 (Vmem_FT10\-T8 Vout_FT10\-T8) capacitor c=3p
+C33 (Vmem_fin Vout_fin) capacitor c=1p
+C34 (Vmem_FP2\-F4 Vout_FP2\-F4) capacitor c=3p
+V51 (net8 0) vsource dc=3.5 type=dc
+V50 (net10 0) vsource dc=-5 type=dc
+V49 (net5 0) vsource dc=-5 type=dc
+V48 (net9 0) vsource dc=-5 type=dc
+V47 (net12 0) vsource dc=-5 type=dc
+V44 (net6 0) vsource dc=-5 type=dc
+V35 (net2 0) vsource dc=-5 type=dc
+V36 (net7 0) vsource dc=-5 type=dc
+I334 (0 Vmem_T8\-P8) isource type=pwl \
+        file="/home/gibaek/data/cadence/chbmit/chb01/ch_name_T8-P8-1_balance.txt"
+I325 (0 Vmem_FT10\-T8) isource type=pwl \
+        file="/home/gibaek/data/cadence/chbmit/chb01/ch_name_FT10-T8_balance.txt"
+I300 (0 Vmem_FP2\-F4) isource type=pwl \
+        file="/home/gibaek/data/cadence/chbmit/chb01/ch_name_FP2-F4_balance.txt"
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=892 skipdc=yes cmin=1e-13 write="spectre.ic" \
+    writefinal="spectre.fc" method=gear2 annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=selected
+ahdl_include "/home/gibaek/GB/OTFT_10um/veriloga/veriloga.va"

@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.138.isr1"
+"date" "1:24:59 PM, Fri May 2, 2025"
+"design" "// Point Netlist Generated on: Apr 30 14:33:02 2025"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+END

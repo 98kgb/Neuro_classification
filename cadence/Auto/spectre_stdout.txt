@@ -1,0 +1,277 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.138.isr1 64bit -- 25 Oct 2024
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved
+        worldwide. Cadence and Spectre are registered trademarks of Cadence
+        Design Systems, Inc. All others are the property of their respective
+        holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+User: gibaek   Host: nevo.polytechnique.fr   HostID: 6881FB14   PID: 7217
+Memory  available: 261.4766 GB  physical: 269.6781 GB
+Linux   : Red Hat Enterprise Linux release 8.6 (Ootpa)
+CPU Type: Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [3200.0] ( 16 ),  2 [3200.0] ( 18 ),  4 [3200.0] ( 20 )
+                 6 [3200.0] ( 22 ),  8 [3200.0] ( 24 ), 10 [3200.0] ( 26 )
+                12 [3200.0] ( 28 ), 14 [3200.0] ( 30 )
+        1:       1 [3200.0] ( 17 ),  3 [3200.0] ( 19 ),  5 [3200.0] ( 21 )
+                 7 [3200.0] ( 23 ),  9 [3200.0] ( 25 ), 11 [3200.0] ( 27 )
+                13 [3200.0] ( 29 ), 15 [3200.0] ( 31 )
+        
+System load averages (1min, 5min, 15min) : 2.4 %, 1.9 %, 1.7 %
+Hyperthreading is enabled
+
+
+Simulating `/home/gibaek/code/M2/cadence/Auto/input.scs' on
+        nevo.polytechnique.fr at 1:24:51 PM, Fri May 2, 2025 (process id:
+        7217).
+Current working directory: /home/gibaek/code/M2/cadence/Auto
+Command line:
+    /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/bin/spectre  \
+        -64 -raw /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf  \
+        /home/gibaek/code/M2/cadence/Auto/input.scs
+Licensing Information:
+[13:24:51.291201] Configured Lic search path (24.01-s002):
+        30000@cadence.cnfm.fr
+
+Licensing Information:
+[13:24:51.057832] Periodic Lic check successful
+
+Reading file:  /home/gibaek/code/M2/cadence/Auto/input.scs
+Reading file: 
+        /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /home/gibaek/GB/OTFT_10um/veriloga/veriloga.va
+Reading link: 
+        /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file: 
+        /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link: 
+        /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file: 
+        /home/cdsmgr/cadence/installs/SPECTRE241/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Time for NDB Parsing: CPU = 96.943 ms, elapsed = 505.597 ms.
+Time accumulated: CPU = 193.886 ms, elapsed = 505.599 ms.
+Peak resident memory used = 188 Mbytes.
+
+Existing shared object for module otftOriginal is up to date.
+Installed compiled interface for otftOriginal.
+Time for Elaboration: CPU = 15.266 ms, elapsed = 15.3379 ms.
+Time accumulated: CPU = 209.233 ms, elapsed = 521.022 ms.
+Peak resident memory used = 197 Mbytes.
+
+
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be
+        supported in future releases. Use 'spectre -h' to see other recommended
+        values for the 'checklimitdest' option.
+
+
+Time for EDB Visiting: CPU = 841 us, elapsed = 845.909 us.
+Time accumulated: CPU = 210.152 ms, elapsed = 521.945 ms.
+Peak resident memory used = 199 Mbytes.
+
+Reading file: 
+        /home/gibaek/data/cadence/chbmit/chb01/ch_name_FP2-F4_balance.txt
+Reading file: 
+        /home/gibaek/data/cadence/chbmit/chb01/ch_name_FT10-T8_balance.txt
+Reading file: 
+        /home/gibaek/data/cadence/chbmit/chb01/ch_name_T8-P8-1_balance.txt
+
+Netlist title:
+        // Point Netlist Generated on: Apr 30 14:33:02 2025
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = selected
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 20
+          capacitor 7     
+            isource 3     
+       otftOriginal 15    
+           resistor 8     
+            vsource 8     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Time for parsing: CPU = 8.26147 s, elapsed = 8.27276 s.
+Time accumulated: CPU = 8.47169 s, elapsed = 8.79478 s.
+Peak resident memory used = 360 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 892 s)
+************************************************
+
+Opening the PSFXL file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 892 s
+    step = 892 ms
+    maxstep = 17.84 s
+    ic = all
+    useprevic = no
+    skipdc = yes
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = gear2
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 100 fF
+    gmin = 1 pS
+
+
+Output and IC/nodeset summary:
+                 save   2       (voltage)
+
+    tran: time = 22.3 s       (2.5 %), step = 572.8 us    (64.2 u%)
+    tran: time = 66.9 s       (7.5 %), step = 1.524 ms     (171 u%)
+    tran: time = 111.5 s     (12.5 %), step = 195.3 us    (21.9 u%)
+    tran: time = 156.1 s     (17.5 %), step = 1.172 ms     (131 u%)
+    tran: time = 200.7 s     (22.5 %), step = 1.086 ms     (122 u%)
+    tran: time = 245.3 s     (27.5 %), step = 1.172 ms     (131 u%)
+    tran: time = 289.9 s     (32.5 %), step = 1.199 ms     (134 u%)
+    tran: time = 334.5 s     (37.5 %), step = 195.3 us    (21.9 u%)
+    tran: time = 379.1 s     (42.5 %), step = 1.374 ms     (154 u%)
+    tran: time = 423.7 s     (47.5 %), step = 829.5 us      (93 u%)
+    tran: time = 468.3 s     (52.5 %), step = 1.172 ms     (131 u%)
+    tran: time = 512.9 s     (57.5 %), step = 1.563 ms     (175 u%)
+    tran: time = 557.5 s     (62.5 %), step = 390.6 us    (43.8 u%)
+    tran: time = 602.1 s     (67.5 %), step = 1.563 ms     (175 u%)
+    tran: time = 646.7 s     (72.5 %), step = 781.3 us    (87.6 u%)
+    tran: time = 691.3 s     (77.5 %), step = 1.172 ms     (131 u%)
+    tran: time = 735.9 s     (82.5 %), step = 1.563 ms     (175 u%)
+    tran: time = 780.5 s     (87.5 %), step = 390.6 us    (43.8 u%)
+    tran: time = 825.1 s     (92.5 %), step = 1.563 ms     (175 u%)
+    tran: time = 869.7 s     (97.5 %), step = 1.213 ms     (136 u%)
+Number of accepted tran steps =             1427139
+
+Maximum value achieved for any signal of each quantity: 
+V: V(Vmem_FT10-T8) = 6.471 V
+I: I(V51:p) = 565.4 nA
+Maximum value of each quantity, excluding Verilog-A modules or dangling current
+        sources:
+V: V(net7) = 5 V
+I: I(V51:p) = 565.4 nA
+If your circuit contains signals of the same quantity that are vastly different
+        in size (such as high voltage circuitry combined with low voltage
+        control circuitry), you should consider specifying global option
+        `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Since 17.1ISR10, the option ignorevaref is enabled by default. This will
+        remove Verilog-A signals from the computation of references
+       for convergence tolerances. This improves accuracy, but may increase
+        transient runtime. To revert to ISR10 behavior, set the option
+        ignorevaref=no.
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (4.4 %)       1 (35.7 %)      2 (3.0 %)       4 (3.3 %)
+         6 (3.1 %)       8 (1.6 %)      10 (1.8 %)      11 (25.5 %)
+        12 (1.3 %)      14 (1.0 %)      16 (9.2 %)      17 (13.0 %)
+        18 (1.6 %)      20 (2.5 %)      21 (3.9 %)      22 (3.2 %)
+        24 (1.1 %)      26 (6.1 %)      27 (22.5 %)     28 (1.6 %)
+        30 (1.3 %)      
+        Total: 149.1%
+Initial condition solution time: CPU = 0 s, elapsed = 0 s.
+Intrinsic tran analysis time:    CPU = 113.426 s, elapsed = 113.662 s.
+Total time required for tran analysis `tran': CPU = 113.43 s (1m  53.4s),
+        elapsed = 113.665 s (1m  53.7s), util. = 99.8%.
+Time accumulated: CPU = 122.199 s (2m  2.2s), elapsed = 122.779 s (2m  2.8s).
+Peak resident memory used = 465 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/finalTimeOP.info
+        ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/modelParameter.info
+        ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/outputParameter.info
+        ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/designParamVals.info
+        ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/primitives.info.primitives
+        ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file
+        /home/gibaek/code/M2/cadence/Auto/results/C0_3p/psf/subckts.info.subckts
+        ...
+Licensing Information:
+Lic Summary:
+[13:26:53.396979] Cdslmd servers:30000@cadence.cnfm.fr
+[13:26:53.921299] Feature usage summary:
+[13:26:53.921299] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (1:26:53 PM, Fri May 2, 2025):
+Time used: CPU = 122 s (2m  2.2s), elapsed = 123 s (2m  2.8s), util. = 99.5%.
+Time spent in licensing: elapsed = 372 ms.
+Peak memory used = 465 Mbytes.
+Simulation started at: 1:24:51 PM, Fri May 2, 2025, ended at: 1:26:53 PM, Fri
+        May 2, 2025, with elapsed time (wall clock): 123 s (2m  2.8s).
+spectre completes with 0 errors, 0 warnings, and 2 notices.
